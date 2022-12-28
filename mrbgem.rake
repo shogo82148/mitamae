@@ -29,7 +29,8 @@ MRuby::Gem::Specification.new('mitamae') do |spec|
   spec.add_dependency 'mruby-open3',       mgem: 'mruby-open3'
   spec.add_dependency 'mruby-optparse',    mgem: 'mruby-optparse'
   spec.add_dependency 'mruby-shellwords',  mgem: 'mruby-shellwords'
-  spec.add_dependency 'mruby-specinfra',   mgem: 'mruby-specinfra'
+
+  spec.add_dependency 'mruby-specinfra',   github: 'shogo82148/mruby-specinfra'
 
   spec.add_dependency 'mruby-tempfile',  github: 'k0kubun/mruby-tempfile'
   spec.add_dependency 'mruby-yaml',      github: 'mrbgems/mruby-yaml'
