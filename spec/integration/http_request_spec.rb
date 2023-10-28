@@ -58,6 +58,6 @@ describe 'http_request resource' do
 
   describe file('/tmp/https_request.json') do
     it { should be_file }
-    its(:content) { should match(/"from": ?"itamae"/) }
+    its(:content) { should match(/"from":\s*\[\s*"itamae"\s*\]/) }
   end
 end
